@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Ganesh\eclipse-workspace\SpringCoreUsingConstructor\src\main\java\com\jspider\SpringCoreUsingConstructor\Bean\Employee.xml"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_MTM_Practice_Bidirectional\src\main\java\com\hibernate\Mapping_MTM_Practice_Bidirectional\DTO\CustomerDTO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_ManyToMany_Bidirectional\src\main\java\com\hibernate\Mapping_ManyToMany_Bidirectional\DTO\ProductDTO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_ManyToMany_Practice\src\main\java\com\hibernate\Mapping_ManyToMany_Practice\DAO\BankCustomerDAO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_ManyToMany_Unidirectional\src\main\java\com\hibernate\Mapping_ManyToMany_Unidirectional\DTO\ProductDTO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_OneToMany_Practice\src\main\java\com\hibernate\Mapping_OneToMany_Practice\DAO\BankCustomerDAO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_OneToMany\src\main\java\com\hibernate\Mapping_OneToMany\DAO\TeacherStudentDAO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Mapping_OneToOne_Bidirectional\src\main\java\com\hibernate\Mapping_OneToOne_Bidirectional\DAO\HusbandWifeDAO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\Hibernate_Mapping_OneToOne_Practice\src\main\java\com\hibernate\Hibernate_Mapping_OneToOne_Practice\DTO\FatherDTO.java"/>
+			<item value="C:\Users\Ganesh\eclipse-workspace\HibernatePractice\src\main\java\com\jspider\hibernate\HibernatePractice\StudentDAO.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.jspider.SpringCoreDependencyUsingAnnotation"/>
+			<item value="com.jspider.SpringCoreMixedConfiguration"/>
+			<item value="com.jspider.SpringCoreUsingAnnotation"/>
+			<item value="com.jspider.DependencyInjection"/>
+			<item value="com.jspider.SpringCoreDependencyAssignment"/>
+			<item value="com.jspider.SpringCoreUsingConstructor"/>
+			<item value="com.jspider.SpringCoreConstructor"/>
+			<item value="com.hibernate.SpringCoreConstrctorInjection"/>
+			<item value="com.hibernate.SpringCore"/>
+			<item value="com.hibernate.Hibernate_Query_Solving"/>
+			<item value="com.hibernate.Mapping_MTM_Practice_Bidirectional"/>
+			<item value="com.hibernate.Mapping_ManyToMany_Bidirectional"/>
+			<item value="com.hibernate.Mapping_ManyToMany_Practice"/>
+			<item value="com.hibernate.Mapping_ManyToMany_Unidirectional"/>
+			<item value="com.hibernate.Mapping_ManyToOne_Practice"/>
+		</list>
+		<list key="groupId">
+			<item value="com.jspider"/>
+			<item value="com.hibernate"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringCoreDependencyUsingAnnotation"/>
+			<item value="SpringCoreMixedConfiguration"/>
+			<item value="SpringCoreUsingAnnotation"/>
+			<item value="DependencyInjection"/>
+			<item value="SpringCoreDependencyAssignment"/>
+			<item value="SpringCoreUsingConstructor"/>
+			<item value="SpringCoreConstructor"/>
+			<item value="SpringCoreConstrctorInjection"/>
+			<item value="SpringCore"/>
+			<item value="Hibernate_Query_Solving"/>
+			<item value="Mapping_MTM_Practice_Bidirectional"/>
+			<item value="Mapping_ManyToMany_Bidirectional"/>
+			<item value="Mapping_ManyToMany_Practice"/>
+			<item value="Mapping_ManyToMany_Unidirectional"/>
+			<item value="Mapping_ManyToOne_Practice"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

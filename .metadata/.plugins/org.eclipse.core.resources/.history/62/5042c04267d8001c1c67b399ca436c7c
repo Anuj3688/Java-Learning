@@ -1,0 +1,14 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jspider.SpringCoreDependencyUsingAnnotation.Bean.EmployeeBean;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext ctx=new AnnotationConfigApplicationContext(EmployeeBean.class);
+	}
+}

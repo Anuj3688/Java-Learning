@@ -1,0 +1,2 @@
+@Column(name = "Number")
+	private int carNo;

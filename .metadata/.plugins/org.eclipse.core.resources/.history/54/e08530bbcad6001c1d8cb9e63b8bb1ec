@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<bean class="com.jspider.SpringCoreDependencyAssignment.Main.CustomerBean" name="customer">
+ 		<property name="id" value="101"/> 
+		<property name="name" value="Rohan"/>
+		<property name="bank" ref="bankDetails"/>
+	</bean>
+	<bean class="com.jspider.SpringCoreDependencyAssignment.Main.BankBean" name="bankDetails" >
+		<property name="id" value="4001"/>
+		<property name="name" value="HDFC"/>
+		<property name="ifsc" value="hdfc001"/>
+		<property name="turnOver" value="500000"/>
+		<property name="totalCustomers" value="60000"/>
+	</bean>
+</beans>
+

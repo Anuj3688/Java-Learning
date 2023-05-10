@@ -1,0 +1,9 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Data
+public class EmployeeBean {
+
+}

@@ -1,0 +1,14 @@
+package com.jspider.SpringCoreUsingAnnotation.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jspider.SpringCoreUsingAnnotation.Config.DoctorConfig;
+
+public class DoctorMain {
+
+	public static void main(String[] args) {
+
+		ApplicationContext ctx = new AnnotationConfigApplicationContext(DoctorConfig.class);
+	}
+}

@@ -1,0 +1,19 @@
+package com.jspider.SpringCoreMixedConfiguration.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.jspider.SpringCoreMixedConfiguration.Bean.DoctorBean;
+import com.jspider.SpringCoreMixedConfigurationa.Config.DoctorConfig;
+
+public class DoctorPatientMain {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new AnnotationConfigApplicationContext(DoctorConfig.class);
+		DoctorBean doctor = (DoctorBean) ctx.getBean(DoctorBean.class);
+		System.out.println(doctor);
+
+		((ClassPathXmlApplicationContext) ctx).close();
+	}
+}

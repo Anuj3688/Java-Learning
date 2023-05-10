@@ -1,0 +1,9 @@
+package com.jspider.SpringCoreMixedConfiguration.Bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class PatientBean {
+
+	private int id;
+}

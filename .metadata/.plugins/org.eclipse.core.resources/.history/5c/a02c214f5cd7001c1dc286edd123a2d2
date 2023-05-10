@@ -1,0 +1,7 @@
+package com.jspider.SpringCoreUsingAnnotation.Main;
+
+public class DoctorMain {
+	public static void main(String[] args) {
+
+	}
+}

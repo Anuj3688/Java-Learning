@@ -1,0 +1,14 @@
+package com.jspider.SpringCoreDependencyAssignment.Main.Main;
+
+public class BankDetails {
+
+	private int bid;
+
+	private String bname;
+
+	private String ifsc;
+
+	private double turnOver;
+
+	private long totalCustomers;
+}

@@ -1,0 +1,17 @@
+package com.jspider.SpringCoreDependencyAssignment.Main.Main;
+
+import lombok.Data;
+
+@Data
+public class BankDetails {
+
+	private int bid;
+
+	private String bname;
+
+	private String ifsc;
+
+	private double turnOver;
+
+	private long totalCustomers;
+}

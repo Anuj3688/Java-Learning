@@ -1,0 +1,13 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Config;
+
+import org.springframework.context.annotation.ComponentScan;
+
+import com.jspider.SpringCoreDependencyUsingAnnotation.Bean.CustomerBean;
+
+@ComponentScan({ "com.jspider.SpringCoreDependencyUsingAnnotation" })
+public class CustomerConfig {
+
+	public CustomerBean getCustomer() {
+		return new CustomerBean;
+	}
+}

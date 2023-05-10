@@ -1,0 +1,14 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Bean;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@Data
+public class EmployeeDetailsBean {
+
+	private String email;
+	
+	private double salary;
+	
+	private String address; 
+}

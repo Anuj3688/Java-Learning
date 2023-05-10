@@ -1,0 +1,18 @@
+package com.jspider.SpringCoreMixedConfiguration.Bean;
+
+import org.springframework.stereotype.Component;
+
+import com.jspider.SpringCoreUsingAnnotation.Bean.DoctorBean;
+
+import lombok.Data;
+
+@Component
+@Data
+public class DoctorBean {
+
+	private int id;
+
+	private String name;
+
+	private String spl;
+}

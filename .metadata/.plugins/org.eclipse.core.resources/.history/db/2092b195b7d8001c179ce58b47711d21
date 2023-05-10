@@ -1,0 +1,18 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Bean;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+import lombok.Value;
+
+@Component
+@Data
+public class CustomerDetailsBean {
+
+	@Value("9999988888L")
+	private long contact;
+
+	@Value("500000")
+	private double salary;
+
+}

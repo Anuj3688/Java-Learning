@@ -1,0 +1,12 @@
+package com.jspider.SpringCoreDependencyAssignment.Main;
+
+import com.jspider.SpringCoreDependencyAssignment.Main.BankDetails;
+
+public class Bank {
+
+	private int id;
+
+	private String name;
+
+	private BankDetails bank;
+}

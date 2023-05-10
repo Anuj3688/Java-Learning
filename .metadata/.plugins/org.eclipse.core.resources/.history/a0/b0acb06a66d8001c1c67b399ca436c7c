@@ -1,0 +1,16 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Bean;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Component
+@Data
+public class EmployeeBean {
+
+	private int id;
+	
+	private String name;
+	
+	private EmployeeDetailsBean details;
+}

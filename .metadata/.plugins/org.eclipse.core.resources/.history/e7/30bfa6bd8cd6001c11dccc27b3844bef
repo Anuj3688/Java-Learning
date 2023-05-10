@@ -1,0 +1,11 @@
+package com.jspider.SpringCoreUsingConstructor.Bean;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
+public class EmployeeBean {
+
+}

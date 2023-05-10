@@ -1,0 +1,15 @@
+package com.jspider.SpringCoreDependencyAssignment.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BankCustomerMain {
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext(
+				"com/jspider/SpringCoreDependencyAssignment/Main/BankCustomer.xml");
+		CustomerBean bean = (CustomerBean) ctx.getBean(CustomerBean.class);
+		System.out.println(bean);
+
+		((ClassPathXmlApplicationContext) ctx).close();
+	}
+}

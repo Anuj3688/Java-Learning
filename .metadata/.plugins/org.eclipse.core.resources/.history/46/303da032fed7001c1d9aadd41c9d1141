@@ -1,0 +1,14 @@
+package com.jspider.SpringCoreMixedConfiguration.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.jspider.SpringCoreMixedConfiguration.Bean.DoctorBean;
+
+public class DoctorPatientMain {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("Doctor.xml");
+		DoctorBean bean = (DoctorBean) ctx.getBean("doctor");
+	}
+}

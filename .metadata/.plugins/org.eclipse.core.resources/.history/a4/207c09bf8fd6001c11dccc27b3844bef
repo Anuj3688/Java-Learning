@@ -1,0 +1,14 @@
+package com.jspider.SpringCoreDependencyAssignment.Main;
+
+public class BankBean {
+
+	private int id;
+
+	private String name;
+
+	private String ifsc;
+
+	private double turnOver;
+	
+	private long ttlNoEmp;
+}

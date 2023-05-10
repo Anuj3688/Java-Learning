@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;META-INF&apos; to &apos;Hibernate_Query_Solving/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;Mapping_OneToOne_Bidirectional&apos;&#x0D;&#x0A;- Destination element: &apos;Hibernate_Query_Solving/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;META-INF&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" destination="=Hibernate_Query_Solving/src\/main\/resources" element1="src/main/resources/META-INF" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1652605600831" units="0" version="1.0"/>
+</session>

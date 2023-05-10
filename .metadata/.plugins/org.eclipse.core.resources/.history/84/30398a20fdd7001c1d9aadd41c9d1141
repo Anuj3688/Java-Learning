@@ -1,0 +1,12 @@
+package com.jspider.SpringCoreUsingAnnotation.Config;
+
+//@Configuration
+//@ComponentScan(basePackages = ("com.jspider.SpringCoreUsingAnnotation"))
+//public class DoctorConfig {
+//
+//	@Bean("doctor")
+//	public DoctorBean doctor() {
+//		return new DoctorBean();
+//	}
+//
+//}

@@ -1,0 +1,15 @@
+package com.jspider.SpringCoreDependencyUsingAnnotation.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jspider.SpringCoreDependencyUsingAnnotation.Bean.CustomerBean;
+
+public class CustomerMain {
+
+	public static void main(String[] args) {
+
+		ApplicationContext ctx = new AnnotationConfigApplicationContext(CustomerBean.class);
+		ctx.getBean("customer");
+	}
+}

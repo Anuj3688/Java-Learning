@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+	<bean class="com.jspider.SpringCoreUsingConstructor.Bean.EmployeeBean" name="">
+		<constructor-arg name="empId" value="101"/>
+		<constructor-arg name="empName" value="Ganesh"/>
+		<constructor-arg name="empSal" value="10000"/>
+		<constructor-arg name="empAddress" value="KHED"/>
+	</bean>
+</beans>
+

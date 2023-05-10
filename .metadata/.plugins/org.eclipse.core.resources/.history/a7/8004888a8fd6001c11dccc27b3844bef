@@ -1,0 +1,6 @@
+package com.jspider.SpringCoreDependencyAssignment.Main;
+
+public class CustomerBean {
+
+	private int id;
+}
